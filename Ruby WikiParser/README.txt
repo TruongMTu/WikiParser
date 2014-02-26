@@ -10,4 +10,4 @@ That's it!
 
 Note: You're free to modify the code anyway you would like.
 
-P.S. If you�re only interested in two paragraphs instead of the full wiki page, just use the wiki_parser_part.rb file instead.
+P.S. If you're only interested in two paragraphs instead of the full wiki page, just use the wiki_parser_part.rb file instead.
