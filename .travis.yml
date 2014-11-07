@@ -7,11 +7,17 @@ branches:
     - master
 
 install:
-  - pip install -q Django==1.6
+  # Python test requirements
+  - pip install -r requirements.txt
+  - pip install nose coverage selenium
 
-script: 
-  - cd tests
-  - python runalltests.py
+  # JavaScript test requirements
+  - sudo add-apt-repository -y ppa:chris-lea/node.js
+  - sudo apt-get -y update
+  - sudo apt-get -y install nodejs
+  - sudo npm install -g grunt-cli
+  - sudo npm install -g bower
+  - sudo npm install
 
 notifications:
   email:
