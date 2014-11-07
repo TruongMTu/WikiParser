@@ -2,6 +2,14 @@ language: python
 python:
   - "3.3"
 
+branches:
+  only:
+    - develop
+
+install:
+  - pip install -q Django==1.6
+  - python setup.py -q install
+
 script: 
   - cd tests
   - python runalltests.py
