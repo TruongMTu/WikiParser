@@ -8,7 +8,6 @@ branches:
 
 install:
   - pip install -q Django==1.6
-  - python setup.py -q install
 
 script: 
   - cd tests
