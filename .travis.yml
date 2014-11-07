@@ -9,8 +9,6 @@ script:
 notifications:
   email:
     recipients:
-      - nextesla48@gmail.com
       - truongt1@terpmail.umd.edu
-      - omairj7@gmail.com
     on_success: change
     on_failure: always
