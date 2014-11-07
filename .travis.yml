@@ -3,7 +3,7 @@ python:
   - "3.3"
 
 script: 
-  - cd RubyWikiParser
+  - cd tests
   - python runalltests.py
 
 notifications:
