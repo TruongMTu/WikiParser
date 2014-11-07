@@ -3,5 +3,13 @@ python:
   - "3.3"
 
 script: 
-  - cd tests
+  - cd RubyWikiParser
   - python runalltests.py
+
+notifications:
+  email:
+    recipients:
+      - tutruong123@gmail.com
+      - truongt1@terpmail.umd.edu
+    on_success: change
+    on_failure: always
