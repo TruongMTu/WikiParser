@@ -1,4 +1,5 @@
 #!/c/Python33/python
+#Test commit
 """
 Running this file executes all the unit tests and integration tests for the miyagi project.  It is 
 recommended that you make a hard link of this file into your pre-commit hook in your .git/hooks 
