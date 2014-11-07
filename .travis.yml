@@ -3,5 +3,5 @@ python:
   - "3.3"
 
 script: 
-  - cd Ruby WikiParser
-  - python ./Ruby WikiParser/runalltests.py
+  - cd RubyWikiParser
+  - python runalltests.py
